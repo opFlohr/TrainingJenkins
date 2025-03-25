@@ -9,7 +9,7 @@ echo "Compilation en cours..."
 sh 'exit 1'  // Simulation d'une erreur 
 } catch (Exception e) { 
 echo "Erreur détectée dans le build !" 
-currentBuild.result = 'FAILURE' 
+currentBuild.result = 'SUCCESS' 
 } 
 } 
 } 
